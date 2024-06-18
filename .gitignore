@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!Task_1/
+!copilot_errors_explaination.md
+!Part_Base_Child.cpp
+!CMakeLists.txt
+!LICENSE
+!README.md

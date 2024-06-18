@@ -35,7 +35,6 @@ public:
     };
 
 
-
 void test() {
 
     Child c1;                               std::cout << std::endl;  // cPart cBase cChild
@@ -64,26 +63,6 @@ void test() {
 // todo therefore no output of ~Object is printed.
 // todo QUESTION TO BAER: Am I wrong? If not, what should I answer on the exam?
 
-
-// void test() {
-//     Child c1; std::cout << std::endl;
-//     Child c2 = c1; std::cout << std::endl;
-//
-//     Base b1; std::cout << std::endl;
-//     Base* ptrB = new Child(); std::cout << std::endl;
-//
-//     ptrB->method1(c1); std::cout << std::endl;
-//
-//     static_cast<Child *>(ptrB)->method2(); std::cout << std::endl;
-//     c1.method2(); std::cout << std::endl;
-//
-//     delete ptrB; std::cout << std::endl;
-//
-//     Child *ptrC = &c1; std::cout << std::endl;
-//     ptrC->method1(&c2); std::cout << std::endl;
-//
-//     // delete ptrC; std::cout << std::endl; // Error: Process finished with exit code -1073740940 (0xC0000374)
-// }
 
 
 int main() {
