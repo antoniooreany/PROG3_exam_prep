@@ -2,7 +2,7 @@
 
 class MyClass {
 public:
-    explicit MyClass(int value) : memberVariable(value) {}
+    MyClass(int value) : memberVariable(value) {}
 
     void setValue(int value) {
         memberVariable = value;
