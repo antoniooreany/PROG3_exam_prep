@@ -31,14 +31,8 @@
 *.out
 *.app
 
-# Ignore everything
-*
+# Ignore the idea directory
+.idea
 
-# But not these files...
-!.gitignore
-!Task_1/
-!copilot_errors_explaination.md
-!Part_Base_Child.cpp
-!CMakeLists.txt
-!LICENSE
-!README.md
+# Ignore all files in the build directory
+cmake-build-debug

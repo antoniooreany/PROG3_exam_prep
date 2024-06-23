@@ -35,7 +35,7 @@ public:
     };
 
 
-void test() {
+void testTask() {
 
     Child c1;                               std::cout << std::endl;  // cPart cBase cChild
     Child c2 = c1;                          std::cout << std::endl;  // cPart cBase copyChild
@@ -58,14 +58,13 @@ void test() {
     // Error: Process finished with exit code -1073740940 (0xC0000374)
 }                                          // todo NO OUTPUT like:   // ~Base ~Part ~Child ~Base ~Part ~Child ~Base ~Part
 
-
 // todo The objects, created on stack, is not deleted by delete operator, meaning no destructor is called,
 // todo therefore no output of ~Object is printed.
 // todo QUESTION TO BAER: Am I wrong? If not, what should I answer on the exam?
 
 
-
-int main() {
-    test();
-    return 0;
-}
+// todo Uncomment main() to test the code
+// int main() {
+//     testTask1();
+//     return 0;
+// }
